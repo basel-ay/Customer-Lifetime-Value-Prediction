@@ -36,3 +36,11 @@ Stands for Recency - Frequency - Monetary Value. Theoretically, we will have seg
 
 As the methodology, we need to calculate Recency, Frequency, and Monetary Value (we will call it Revenue from now on) and apply unsupervised machine learning to identify different groups (clusters) for each.
 
+## XGBoost
+
+XGBoost (Extreme Gradient Boosting) is an advanced implementation of the gradient boosting algorithm. XGBoost has proved to be a highly effective ML algorithm, extensively used in machine learning competitions and hackathons. XGBoost has high predictive power and is almost 10 times faster than the other gradient-boosting techniques. It also includes a variety of regularization which reduces overfitting and improves overall performance. Hence it is also known as the ‘regularized boosting‘ technique.
+
+When using gradient boosting for regression, the weak learners are regression trees, and each regression tree maps an input data point to one of its leafs that contains a continuous score. XGBoost minimizes a regularized (L1 and L2) objective function that combines a convex loss function (based on the difference between the predicted and target outputs) and a penalty term for model complexity (in other words, the regression tree functions). The training proceeds iteratively, adding new trees that predict the residuals or errors of prior trees that are then combined with previous trees to make the final prediction. It's called gradient boosting because it uses a gradient descent algorithm to minimize the loss when adding new models.
+
+![image](https://github.com/basel-ay/Customer-Lifetime-Value-Prediction/assets/64821137/52d7034a-0943-40fd-894a-4f954ffa2454)
+
