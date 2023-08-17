@@ -1,9 +1,9 @@
 # Customer-Lifetime-Value-Prediction
 
-![image](https://github.com/basel-ay/Customer-Lifetime-Value-Prediction/assets/64821137/146a2430-7a8b-4a7e-92ff-ad57eafb0d68)
+![image](https://github.com/basel-ay/Customer-Lifetime-Value-Prediction/assets/64821137/88e9133b-7a96-4af5-bfb9-7e558e29b5b8)
 
 ## What is Customer Lifetime value?
-In marketing, customer lifetime value (CLV or often CLTV), lifetime customer value (LCV), or life-time value (LTV) is a prediction of the net profit attributed to the entire future relationship with a customer. Customer lifetime value is a powerful piece of business intelligence that informs an efficient strategy for business growth.
+In marketing, customer lifetime value (CLV or often CLTV), lifetime customer value (LCV), or lifetime value (LTV) is a prediction of the net profit attributed to the entire future relationship with a customer. Customer lifetime value is a powerful piece of business intelligence that informs an efficient strategy for business growth.
 
 ## Why is Customer Lifetime Value Important?
 * Customer Lifetime Value (CLV) helps you allocate your customer procurement budget based on what the new client will actually bring to your firm.
@@ -25,7 +25,7 @@ Because of the importance of CLV, it is essential to know the future value of cu
 
 Stands for Recency - Frequency - Monetary Value. Theoretically, we will have segments like the below:
 
-![image](https://github.com/basel-ay/Customer-Lifetime-Value-Prediction/assets/64821137/9ef19242-1937-414e-9896-cc9cebdb513a)
+![image](https://github.com/basel-ay/Customer-Lifetime-Value-Prediction/assets/64821137/eac0f80a-6ac2-405f-8282-0186bbfa2729)
 
 * Low Value: Customers who are less active than others, not very frequent buyer/visitor, and generates very low - zero - maybe negative revenue.
 
@@ -42,5 +42,6 @@ XGBoost (Extreme Gradient Boosting) is an advanced implementation of the gradien
 
 When using gradient boosting for regression, the weak learners are regression trees, and each regression tree maps an input data point to one of its leafs that contains a continuous score. XGBoost minimizes a regularized (L1 and L2) objective function that combines a convex loss function (based on the difference between the predicted and target outputs) and a penalty term for model complexity (in other words, the regression tree functions). The training proceeds iteratively, adding new trees that predict the residuals or errors of prior trees that are then combined with previous trees to make the final prediction. It's called gradient boosting because it uses a gradient descent algorithm to minimize the loss when adding new models.
 
-![image](https://github.com/basel-ay/Customer-Lifetime-Value-Prediction/assets/64821137/52d7034a-0943-40fd-894a-4f954ffa2454)
+![image](https://github.com/basel-ay/Customer-Lifetime-Value-Prediction/assets/64821137/f3a4e25e-4108-4ce1-9471-ee9292df25b4)
+
 
