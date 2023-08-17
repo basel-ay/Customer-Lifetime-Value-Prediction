@@ -20,3 +20,19 @@ Because of the importance of CLV, it is essential to know the future value of cu
 * The persona and the approximate Customer Lifetime Value of a new customer.
 
 * Predicting the next transaction amounts and periodicity for existing customers, hence giving an indication of their adjusted CLV.
+
+## **RFM** 
+
+Stands for Recency - Frequency - Monetary Value. Theoretically, we will have segments like the below:
+
+![image](https://github.com/basel-ay/Customer-Lifetime-Value-Prediction/assets/64821137/9ef19242-1937-414e-9896-cc9cebdb513a)
+
+* Low Value: Customers who are less active than others, not very frequent buyer/visitor, and generates very low - zero - maybe negative revenue.
+
+* Mid Value: In the middle of everything. Often using our platform (but not as much as our High Values), fairly frequently and generates moderate revenue.
+
+* High Value: The group we don’t want to lose. High Revenue, Frequency, and low Inactivity.
+
+
+As the methodology, we need to calculate Recency, Frequency, and Monetary Value (we will call it Revenue from now on) and apply unsupervised machine learning to identify different groups (clusters) for each.
+
